@@ -1,0 +1,68 @@
+.container{
+    margin-top: 4rem;
+    width: 300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    border: 1px solid lightgray;
+}
+
+.card-detail{
+    width: 15rem;
+    height: 22rem;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 10px 2px lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4rem;
+}
+
+.card-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: red;
+    font-weight: 400;
+    text-align: center;
+}
+
+.line{
+    margin-left: 3.5rem;
+}
+
+.complete-task{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: red;
+    text-decoration: line-through solid red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.checkbox{
+    margin-left: 20px;
+}
+
+.checkbox-label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.checkbox-box{
+    width: 16px;
+    height: 16px;
+}
+
+.plus-icon{
+    color:red;
+}
+
+.plus-icon-div{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
